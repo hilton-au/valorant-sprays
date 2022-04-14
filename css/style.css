@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+nav{
+    background: rgba(0, 0, 0, 0.921);
+    height: 20%;
+    padding: 2%;
+    align-items: flex-end;
+}
+
+section{
+
+}
+
+select{
+    scrollbar-width: none;
+}
+
+#spray-list{
+    display: none;
+}
+
+
+img{
+    position: fixed;
+    margin-left: 30%;
+}
+
+button{
+    background: none;
+    border: none;
+    color: white;
+    font-family: "Oswald";
+    font-weight: 500;
+    font-size: 30px;
+}
+
+button:hover{
+    text-decoration: underline;
+    transition: all .3s ease-in-out 0s;
+}
